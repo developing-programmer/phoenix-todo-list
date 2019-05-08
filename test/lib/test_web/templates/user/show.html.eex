@@ -1,0 +1,20 @@
+<h2>Show Todo</h2>
+
+<ul>
+
+  <li>
+    <strong>Date:</strong>
+    <%= @user.date %>
+  </li>
+
+  <li>
+    <strong>Todo:</strong>
+    <%= @user.todo %>
+  </li>
+
+</ul>
+<button>
+<span><%= link "Edit", to: user_path(@conn, :edit, @user) %></span></button>
+<br><br>
+<button>
+<span><%= link "Confirm", to: user_path(@conn, :index) %></span></button>

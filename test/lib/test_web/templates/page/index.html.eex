@@ -1,0 +1,4 @@
+<h1>Todo list</h1>
+<div class="jumbotron">
+<button><a href="/todo">Todo list</a></button>
+</div>
